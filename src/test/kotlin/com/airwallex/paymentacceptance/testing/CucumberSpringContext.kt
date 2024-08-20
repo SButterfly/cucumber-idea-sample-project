@@ -1,0 +1,10 @@
+package com.airwallex.paymentacceptance.testing
+
+import io.cucumber.spring.CucumberContextConfiguration
+import org.springframework.boot.context.properties.EnableConfigurationProperties
+import org.springframework.boot.test.context.SpringBootTest
+
+@SpringBootTest
+@EnableConfigurationProperties
+@CucumberContextConfiguration
+class CucumberSpringContext
